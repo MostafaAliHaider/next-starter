@@ -4,11 +4,12 @@ import Title from "./Title";
 const Mycomponent = ({title}) => {
     return(
         <>
-        { <h1>My First Component</h1>}
-
-        { <h1>It {title}</h1> }
-
-        <Title title="it works:D"/>
+        {/* Task 1 */}
+         <h1>1. My First Component</h1>
+        {/* Task 2 */}
+        <h1>{title}</h1> 
+        {/* Task 3 */}
+        <Title title={title}/>
         </>
     )
 }

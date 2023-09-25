@@ -1,4 +1,4 @@
-import Mycomponent from "./Mycomponent";
+
 
 const Title = ({title}) => {
     return(
