@@ -8,9 +8,7 @@ const Button = () => {
     
     return(
         <div>
-
-            <h1>hey22</h1>
-
+            
            <button onClick={handleClick}>Click me</button>
        
         </div>
